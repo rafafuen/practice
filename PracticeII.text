@@ -1,0 +1,17 @@
+using Practice;
+
+var num = 123;
+var stringvar = "hello";
+
+if (num == 123 && stringvar == "hello")
+{
+    Console.WriteLine("1");
+}
+if (num != 123 || stringvar == "hello")
+{
+    Console.WriteLine("2");
+}
+if (!false && (false || true))
+{
+    Console.WriteLine("3");
+}
